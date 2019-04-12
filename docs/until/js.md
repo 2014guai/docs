@@ -15,7 +15,7 @@ function hasClass (ele, cls) {
 }
 ```
 * addClass：为元素添加class
-```
+``` json
 /**
 * addClass
 * @desc   为元素添加class
@@ -29,7 +29,7 @@ function addClass (ele, cls) {
 }
 ```
 * removeClass：为元素移除class
-```
+``` json
 /**
 * removeClass
 * @desc 为元素移除class
