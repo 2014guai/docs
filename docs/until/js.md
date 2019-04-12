@@ -2,7 +2,8 @@
 常用js工具类函数整理
 ### class相关
 * hasClass：判断元素是否有某个class
-``` json
+```
+<script>
 /**
 * hasClass
 * @desc 判断元素是否有某个class
@@ -13,6 +14,7 @@
 function hasClass (ele, cls) {
 		return (new RegExp('(\\s|^)' + cls + '(\\s|$)')).test(ele.className);
 }
+</script>
 ```
 * addClass：为元素添加class
 ``` json
@@ -30,6 +32,7 @@ function addClass (ele, cls) {
 ```
 * removeClass：为元素移除class
 ``` json
+{
 /**
 * removeClass
 * @desc 为元素移除class
@@ -42,5 +45,6 @@ removeClass: function (ele, cls) {
     ele.className = ele.className.replace(reg, ' ');
   }
 },
+}
 ```
 
