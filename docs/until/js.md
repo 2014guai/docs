@@ -2,7 +2,7 @@
 常用js工具类函数整理
 ### class相关
 * hasClass：判断元素是否有某个class
-```
+``` json
 /**
 * hasClass
 * @desc 判断元素是否有某个class
