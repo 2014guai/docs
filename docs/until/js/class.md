@@ -2,6 +2,7 @@
 常用js工具类函数整理
 ### class相关
 * hasClass：判断元素是否有某个class
+
 ```
 /**
 * hasClass
@@ -10,11 +11,12 @@
 * @param {String} cls
 * @return {Boolean}
 */
-function hasClass(ele, cls) {
+function hasClass (ele, cls) {
 		return (new RegExp('(\\s|^)' + cls + '(\\s|$)')).test(ele.className);
 }
 ```
 * addClass：为元素添加class
+
 ```
 /**
 * addClass
@@ -22,14 +24,16 @@ function hasClass(ele, cls) {
 * @param  {HTMLElement} ele
 * @param  {String} cls
 */
-function addClass(ele, cls) {
+function addClass (ele, cls) {
 		if (!this.hasClass(ele, cls)) {
     			ele.className += ' ' + cls;
     }
 }
 ```
 * removeClass：为元素移除class
+
 ```
+{
 /**
 * removeClass
 * @desc 为元素移除class

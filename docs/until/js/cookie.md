@@ -2,6 +2,7 @@
 常用js工具类函数整理
 ### cookie相关
 * getCookie：根据name读取cookie
+
 ```
 /**
 * getCookie
@@ -21,6 +22,7 @@ function getCookie(name) {
 }
 ```
 * setCookie：设置Cookie
+
 ```
 /**
  * setCookie
@@ -36,6 +38,7 @@ function setCookie(name, value, days) {
 }
 ```
 * removeCookie：根据name删除cookie
+
 ```
 /**
  * removeCookie
